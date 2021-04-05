@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-li {
-  list-style: none;
-}
-
 body {
   background-color: #f4f5f6;
 }
@@ -32,26 +28,13 @@ body {
   font-size: 0.85rem;
 }
 
-.footer-1 {
-  width: 100%;
-  margin: 0 auto;
-}
-
 footer a {
   text-decoration: none;
   color: grey;
 }
 
-.editions {
-  padding-left: 0;
-}
-
 footer a:hover {
   color: #000;
-}
-
-.footer-1-socials {
-  font-size: 20px;
 }
 
 .footer-logo svg{
@@ -59,7 +42,4 @@ footer a:hover {
   width: 200px;
 }
 
-.footer-1-socials li a {
-  border-right: 1px solid grey;
-  margin-left: 2px;
-}
+
