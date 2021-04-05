@@ -19,21 +19,15 @@ body {
   background-color: red;
 }
 
-
-
 .date {
   margin: 0 20px;
 }
+
 .main-logo {
   width: 150px;
 }
 
-.nav a {
-  color: #000;
-  text-decoration: none;
-}
-
-.copyright P {
+.copyright {
   font-size: 0.85rem;
 }
 
@@ -54,9 +48,9 @@ footer a:hover {
   font-size: 20px;
 }
 
-.footer1-logo svg{
+.footer-logo svg{
   fill: #f72210;
-  width: 90%;
+  width: 200px;
 }
 
 .footer-1-socials li a{
