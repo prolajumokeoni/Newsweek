@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
 body {
   background-color:#f4f5f6;
 }
@@ -14,4 +24,36 @@ body {
 }
 .main-logo {
   width: 150px;
+}
+
+.copyright P {
+  font-size: 0.85rem;
+}
+
+footer {
+  border: 1px solid black;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.footer-1-socials {
+  font-size: 20px;
+}
+
+.footer1-logo svg{
+  fill: #f72210;
+  width: 90%;
+}
+
+.footer-1-socials li a{
+  border-right: 1px solid grey;
+  margin-left: 2px;
+
 }
