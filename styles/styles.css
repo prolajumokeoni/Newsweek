@@ -20,6 +20,10 @@ body {
   background-color: red;
 }
 
+.nav1 {
+  border-right: 1px solid black;
+}
+
 .date {
   margin: 0 20px;
 }
