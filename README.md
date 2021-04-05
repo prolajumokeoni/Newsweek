@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://prolajumokeoni.github.io/next-web-clone/)
+[Live Demo Link](https://prolajumokeoni.github.io/Newsweek/)
 
 
 
