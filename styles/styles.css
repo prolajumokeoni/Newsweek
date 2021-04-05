@@ -19,6 +19,8 @@ body {
   background-color: red;
 }
 
+
+
 .date {
   margin: 0 20px;
 }
@@ -26,12 +28,17 @@ body {
   width: 150px;
 }
 
+.nav a {
+  color: #000;
+  text-decoration: none;
+}
+
 .copyright P {
   font-size: 0.85rem;
 }
 
 footer {
-  border: 1px solid black;
+  border-top: 1px solid grey;
 }
 
 footer a {
