@@ -4,9 +4,14 @@
 
 > This is a clone of the original Newsweek website.
 
+## Mobile 
+![mobile](https://user-images.githubusercontent.com/69638013/113659688-7f4fd380-969a-11eb-8fdb-16b42203e0a3.PNG)
 
+## Medium
+![medium](https://user-images.githubusercontent.com/69638013/113659680-7bbc4c80-969a-11eb-90e7-6fabb3dd7810.PNG)
 
-
+## Desktop
+![newsweek desktop](https://user-images.githubusercontent.com/69638013/113659678-79f28900-969a-11eb-96b7-8c6120eedd8f.PNG)
 
 ## Built With
 
