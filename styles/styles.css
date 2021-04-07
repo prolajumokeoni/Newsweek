@@ -1,7 +1,3 @@
-body {
-  background-color: #fff;
-}
-
 .main-header {
   width: 98%;
   margin: 0 auto;
@@ -43,10 +39,6 @@ footer a:hover {
   color: grey;
 }
 
-.culture-image-wrapper {
-  position: relative;
-}
-
 .culture-label {
   position: absolute;
   z-index: 9;
@@ -57,7 +49,6 @@ footer a:hover {
 .cta-title h2 {
   font-size: 1.2rem;
   line-height: 1;
-  font-weight: bold;
 }
 
 .versus {
