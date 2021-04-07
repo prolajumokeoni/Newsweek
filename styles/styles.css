@@ -55,3 +55,24 @@ footer a:hover {
   top: -30px;
   left: 40%;
 }
+
+
+/*  */
+.subscribe-image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-left:5px;
+  padding-right: 50px;
+}
+
+.nw-img{
+  position: absolute;
+  z-index: 9;
+  left: 80px;
+  top: 15px;
+}
+
+.subscribe-text {
+  z-index: 9;
+  padding: 30px;
+}
