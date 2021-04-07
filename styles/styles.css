@@ -58,8 +58,8 @@ footer a:hover {
 
 .subscribe-image-wrapper {
   position: relative;
-  width: 100%;
-  padding: 8px 50px 50px 5px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .nw-img {
