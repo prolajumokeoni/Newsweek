@@ -29,12 +29,6 @@ footer a:hover {
   width: 200px;
 }
 
-
-
-
-/* my section styles */
-/* MY TURN SECTION */
- 
 .my-turn h3 {
   font-size: 1rem;
   line-height: 1.2;
@@ -46,29 +40,27 @@ footer a:hover {
   font-size: 1.1rem;
   line-height: 1.2;
   font-weight: 600;
-  color: grey;  
+  color: grey;
 }
 
 .culture-image-wrapper {
   position: relative;
 }
+
 .culture-label {
   position: absolute;
   z-index: 9;
   left: 0;
-  bottom:0;
+  bottom: 0;
 }
-/* END OF MY TURN SECTION */
 
-/* MORE STORIES SECTION */
+.cta-title h2 {
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: bold;
+}
 
-/* END OF MORE STORIES SECTION */
-
-/* COLUMN 3 CTA */
-  .cta-title h2 {
-    font-size: 1.2rem;
-    line-height: 1;
-    font-weight: bold;
-
-  }
-/* END OF COLUMN 3 CTA */
+.versus {
+  top: -30px;
+  left: 40%;
+}
