@@ -56,17 +56,12 @@ footer a:hover {
   left: 40%;
 }
 
-
-/*  */
 .subscribe-image-wrapper {
   position: relative;
   width: 100%;
-
-  padding: 8px 50px 50px 5px;
-
 }
 
-.nw-img{
+.nw-img {
   position: absolute;
   z-index: 9;
   left: 80px;
@@ -75,7 +70,8 @@ footer a:hover {
 
 .subscribe-text {
   z-index: 9;
-  padding: 30px;
+  margin: 30px;
+  margin-left: 70px;
 }
 
 .news-input {
