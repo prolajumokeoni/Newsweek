@@ -82,3 +82,68 @@ footer a:hover {
   height: 34px;
   padding-bottom: 5px;
 }
+
+/*Transitions and Animation */
+
+/* Animations */
+
+.rotate {
+  animation: rotation 3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nw-appear-top {
+  position: relative;
+  animation: bounce 4s linear;
+}
+
+@keyframes bounce {
+  0% {
+    left: -100px;
+  }
+  25% {
+    left: 80px;
+  }
+  75% {
+    left: 10px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+/* End of Animations */
+
+/* Transitions */
+
+.trans-rotate {
+  transition: 0.5s ease-out;
+}
+
+.trans-rotate:hover {
+  transform: rotate(40deg);
+}
+
+.nav-link {
+  transition: 0.7s;
+}
+
+.nav-link:hover {
+  transform: scale(1.15);
+}
+
+.my-turn-card img {
+  transition: 0.6s;
+}
+
+.my-turn-card img:hover {
+  box-shadow: 0 5px 15px 3px rgba(0, 0, 0, 0.5);
+}
