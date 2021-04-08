@@ -85,7 +85,7 @@ footer a:hover {
 
  /* Transitions and Animation */
 
-/* Animations */
+ /* Animations */
 
 .rotate {
   animation: rotation 3s cubic-bezier(0.47, 0, 0.745, 0.715);
@@ -99,7 +99,6 @@ footer a:hover {
   to {
     transform: rotate(360deg);
   }
-  
 }
 
 .nw-appear-top {
@@ -123,7 +122,6 @@ footer a:hover {
   100% {
     left: 0;
   }
-
 }
 
 /* End of Animations */
