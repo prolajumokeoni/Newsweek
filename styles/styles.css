@@ -83,7 +83,7 @@ footer a:hover {
   padding-bottom: 5px;
 }
 
-/*Transitions and Animation */
+ /* Transitions and Animation */
 
 /* Animations */
 
@@ -95,9 +95,11 @@ footer a:hover {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+  
 }
 
 .nw-appear-top {
@@ -109,15 +111,19 @@ footer a:hover {
   0% {
     left: -100px;
   }
+
   25% {
     left: 80px;
   }
+
   75% {
     left: 10px;
   }
+
   100% {
-    left: 0px;
+    left: 0;
   }
+
 }
 
 /* End of Animations */
