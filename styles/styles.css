@@ -83,9 +83,9 @@ footer a:hover {
   padding-bottom: 5px;
 }
 
- /* Transitions and Animation */
+/* Transitions and Animation */
 
- /* Animations */
+/* Animations */
 
 .rotate {
   animation: rotation 3s cubic-bezier(0.47, 0, 0.745, 0.715);
