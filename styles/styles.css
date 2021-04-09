@@ -79,6 +79,24 @@ footer a:hover {
 }
 
 /* Animations */
+.d-logo {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+
+  overflow: hidden;
+}
+.d-logo:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
 .pick,
 .mag {
   margin: auto;
@@ -128,21 +146,9 @@ footer a:hover {
 }
 
 .dot1 {
-  width: 60%;
-  height: 60%;
-  display: inline-block;
-  position: absolute;
-  top: 0;
   border-radius: 100%;
-  -webkit-animation: sk-bounce 2s infinite ease-in-out;
-  animation: sk-bounce 2s infinite ease-in-out;
-}
-
-.dot2 {
-  top: auto;
-  bottom: 0;
-  -webkit-animation-delay: -1s;
-  animation-delay: -1s;
+  -webkit-animation: sk-bounce 1s infinite ease-in-out;
+  animation: sk-bounce 4s infinite ease-in-out;
 }
 
 @-webkit-keyframes sk-rotate {
@@ -223,4 +229,11 @@ footer a:hover {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #aa0c0c;
+}
+img {
+  position: relative;
+  transition: width 2s, height 2s, transform 1s;
+}
+img:hover {
+  transform: scale(1.1);
 }
