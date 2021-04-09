@@ -84,19 +84,19 @@ footer a:hover {
   -moz-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s;
-
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   -o-transition-property: -o-transform;
   transition-property: transform;
-
   overflow: hidden;
 }
+
 .d-logo:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
 }
+
 .pick,
 .mag {
   margin: auto;
@@ -187,6 +187,7 @@ footer a:hover {
     -webkit-transform: scale(1);
   }
 }
+
 .subme {
   -webkit-animation: sk-scaleout 21s infinite ease-in-out;
   animation: sk-scaleout 2s infinite ease-in-out;
@@ -234,10 +235,12 @@ footer a:hover {
   padding: 10px;
   box-shadow: 5px 10px #aa0c0c;
 }
+
 img {
   position: relative;
   transition: width 2s, height 2s, transform 1s;
 }
+
 img:hover {
   transform: scale(1.1);
 }
