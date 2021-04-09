@@ -187,6 +187,10 @@ footer a:hover {
     -webkit-transform: scale(1);
   }
 }
+.subme {
+  -webkit-animation: sk-scaleout 21s infinite ease-in-out;
+  animation: sk-scaleout 2s infinite ease-in-out;
+}
 
 .versus {
   background-color: #333;
