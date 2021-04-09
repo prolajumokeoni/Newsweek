@@ -218,3 +218,8 @@ footer a:hover {
 .email-cta {
   border-radius: 0 50px;
 }
+.form {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #aa0c0c;
+}
