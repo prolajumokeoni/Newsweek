@@ -1,0 +1,84 @@
+.main-header {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.main-logo {
+  width: 150px;
+}
+
+.copyright {
+  font-size: 0.85rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.footer-logo svg {
+  fill: #f72210;
+  width: 200px;
+}
+
+.my-turn h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: bold;
+  color: grey;
+}
+
+.my-turn h2 {
+  font-size: 1.1rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: grey;
+}
+
+.culture-label {
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  bottom: 0;
+}
+
+.cta-title h2 {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.versus {
+  top: -30px;
+  left: 40%;
+}
+
+.subscribe-image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.nw-img {
+  position: absolute;
+  z-index: 9;
+  left: 80px;
+  top: 15px;
+}
+
+.subscribe-text {
+  z-index: 9;
+  margin: 30px;
+  margin-left: 70px;
+}
+
+.news-input {
+  height: 34px;
+}
+
+.news-input-button {
+  height: 34px;
+  padding-bottom: 5px;
+}
